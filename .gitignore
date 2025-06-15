@@ -1,1 +1,30 @@
+
+```gitignore
 .idea/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Spark logs and temp files
+*.log
+*.out
+*.err
+*.crc
+.derby/
+.metastore/
+spark-warehouse/
+
+# Output data
+/data/output/
+
+# Environment files
+.env
+.venv
+*.egg-info/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
